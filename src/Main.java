@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
         CreditPaymentService service = new CreditPaymentService();
-        double payment = service.calculate(1_000_000, 12, 9.99F);
+        double payment = service.calculate(1_000_000, 12, 9.99);
         System.out.println(payment);
-        payment = service.calculate(1_000_000, 24, 9.99F);
+        payment = service.calculate(1_000_000, 24, 9.99);
         System.out.println(payment);
-        payment = service.calculate(1_000_000, 36, 9.99F);
+        payment = service.calculate(1_000_000, 36, 9.99);
         System.out.println(payment);
     }
 }
